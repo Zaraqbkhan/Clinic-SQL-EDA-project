@@ -3,9 +3,8 @@ Source: https://www.kaggle.com/datasets/rizwanali324/clinic-case-study-dataset
 
 This dataset simulates the operations of a fictional clinic using a structured SQL database. It contains information about patients, appointments, doctors, prescriptions, and medications. The dataset is ideal for performing exploratory data analysis using SQL to derive insights into patient care, scheduling trends, and treatment patterns.
 
----
 
-🧱 Table Structure Overview:
+Table Structure Overview:
 
 1. appointment
    - appointment_id (Primary Key)
@@ -45,13 +44,13 @@ This dataset simulates the operations of a fictional clinic using a structured S
 
 ---
 
-🔗 Relationships:
-- Each **patient** can have multiple **appointments**.
-- Each **appointment** is linked to one **doctor** and can result in **prescriptions**.
-- **Prescriptions** link appointments with **medications**.
-- **Doctors** are connected to appointments and identified by **specialty**.
+Relationships:
+- Each patient can have multiple appointments.
+- Each appointment is linked to one doctor and can result in prescriptions.
+- Prescriptions link appointments with medications.
+- Doctors are connected to appointments and identified by specialty.
 
 ---
 
-📝 Notes:
+Notes:
 - It supports use cases like analyzing patient demographics, medication trends, appointment behavior, and doctor workloads.
