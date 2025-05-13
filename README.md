@@ -28,7 +28,7 @@ This project explores a structured clinical dataset using SQL Server to uncover 
 
 - `clinic_data_eda.sql` – All SQL queries used in the analysis
 - `insights.md` – Summary of key findings and conclusions
-- `data_description.txt` – Structure and schema of the database
+- `data_description.md` – Structure and schema of the database
 
 ## 🔍 Summary
 
